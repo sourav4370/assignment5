@@ -1,0 +1,66 @@
+/* Navigation Bar */
+.bg-light {
+    background-color: #f8f9fa; /* Example background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  }
+  
+  .navbar-brand {
+    font-family: 'Roboto', sans-serif; /* Example font from Google Fonts */
+    color: #333; /* Example text color */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Example text shadow */
+  }
+  
+  .nav-link {
+    font-family: 'Roboto', sans-serif; /* Example font from Google Fonts */
+    color: #333; /* Example text color */
+  }
+  
+  .nav-link:hover {
+    color: #f00; /* Example hover color */
+  }
+  
+  /* App Background */
+  body, html {
+    background: linear-gradient(to bottom, #17a2b870, rgba(0,0,0,.075)); /* Example full-page gradient */
+    overflow: auto; /* Ensure the gradient covers the entire page */
+  }
+  
+  /* Primary Button */
+  .btn-primary {
+    background-color: #007bff; /* Example background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Example hover background color */
+  }
+  
+  /* Table cells inside odd-numbered table rows */
+  tr:nth-child(odd) td {
+    background-color: #f8f9fa; /* Example background color */
+  }
+  
+  /* All Heading elements */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; /* Example font from Google Fonts */
+    color: #333; /* Example text color */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Example text shadow */
+  }
+  
+  /* All Anchor elements (HTML Links) */
+  a {
+    color: #007bff; /* Example text color */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Example hover color */
+  }
+  
+  /* Fieldset Legends */
+  legend {
+    padding: 10px 0; /* Example padding top/bottom */
+    font-family: 'Roboto', sans-serif; /* Example font from Google Fonts */
+    color: #333; /* Example text color */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Example text shadow */
+  }
+  
